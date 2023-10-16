@@ -1,3 +1,8 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+
 .img {
     height: 11vh;
 }
@@ -88,7 +93,10 @@ input[type="submit"]:hover {
     height: 60.597px;
     flex-shrink: 0;
 
+
 }
+
+
 
 .register-title {
     align-items: end;
@@ -118,5 +126,5 @@ input[type="submit"]:hover {
 .bg-image-1 {
     background-image: url(/img/Login\ \(4\).png);
     height: 100px;
-   
+
 }

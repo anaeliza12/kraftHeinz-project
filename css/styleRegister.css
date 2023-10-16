@@ -1,3 +1,8 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+
 .img {
     height: 11vh;
    margin-bottom: 10px;
@@ -37,8 +42,9 @@ input[type="submit"]:hover {
 
 .box {
 
-    width: 350px;
-    height: 500px;
+    width: 380px;
+    height: 600px;
+    flex-shrink: 0;
     border-radius: 29.499px;
     display: flex;
     flex-direction: column;
@@ -75,9 +81,9 @@ input[type="submit"]:hover {
     font-weight: 400;
     line-height: normal;
     border-radius: 6.404px 6.404px 0px 0px;
-
+    width: 300px;
+    height: 60.597px;
     flex-shrink: 0;
-
 }
 
 .register-title {
@@ -94,7 +100,8 @@ input[type="submit"]:hover {
 }
 
 #register {
-    margin-top: 20px;
+
+    margin-top: 15vh;
 }
 
 
