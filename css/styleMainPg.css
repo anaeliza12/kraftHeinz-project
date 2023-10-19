@@ -1,0 +1,155 @@
+.logo-kraft {
+    width: 15vh;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+.menu-kraft {
+    margin-top: 3vh;
+    margin-left: 3vh;
+    width: 200px;
+
+    height: 97vh;
+}
+
+.menu-icon {
+    margin-bottom: 20px;
+}
+
+.menu-logo {
+    border-bottom: solid 1px #d9d9d9;
+}
+
+.mainpage {
+    display: flex;
+    position: relative;
+}
+
+.menu-geral {
+    border-right: solid 1px #d9d9d9;
+    width: 30vh;
+    height: 94vh;
+
+    position: fixed;
+
+    /* display: flex; */
+    /* justify-self: center; */
+}
+
+.over-container {
+    display: flex;
+    margin-top: 25px;
+    border-radius: 10px;
+    height: 40px;
+    width: 25vh;
+    background-color: rgba(227, 39, 38, 0.31);
+}
+
+.over-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.over-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dash-container {
+    display: flex;
+    margin-top: 25px;
+    border-radius: 10px;
+    height: 40px;
+    width: 25vh;
+}
+
+.dash-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.dash-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.config-container {
+    margin-top: 40vmax;
+    display: flex;
+}
+
+.config-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.config-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.logout-container {
+    display: flex;
+}
+
+.logout-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.logout-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.help-container {
+    display: flex;
+}
+
+.help-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.help-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.content {
+    margin-left: 30vh;
+    padding: 20px;
+    display: flex;
+}
+
+.content-title {
+    color: #1d3c6d;
+    font-family: "Raleway", sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.search {
+    display: flex;
+    border-radius: 54.839px;
+    background: #d9d9d9;
+    width: 35vh;
+    align-items: start;
+    justify-content: start;
+    height: 4vh;
+}
+
+.search-text {
+    margin-top: 20px;
+}
+
+.search-icon {
+    margin-top: 16px;
+}
