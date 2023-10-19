@@ -20,7 +20,7 @@ html {
     background-image: url("/img/person_24px_outlined.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-position-x: 39vh;
+    background-position-x: 36vh;
   }
   
   input[type="text"]::placeholder {
@@ -34,7 +34,7 @@ html {
     background-image: url("/img/Group\ 218.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-position-x: 39vh;
+    background-position-x: 36vh;
   }
   input[type="password"]::placeholder {
     margin-top: 3px;

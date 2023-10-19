@@ -2,154 +2,165 @@
     width: 15vh;
     margin-left: 8px;
     margin-bottom: 20px;
-}
-
-.menu-kraft {
+  }
+  
+  .menu-kraft {
     margin-top: 3vh;
     margin-left: 3vh;
     width: 200px;
-
+  
     height: 97vh;
-}
-
-.menu-icon {
+  }
+  
+  .menu-icon {
     margin-bottom: 20px;
-}
-
-.menu-logo {
+  }
+  
+  .menu-logo {
     border-bottom: solid 1px #d9d9d9;
-}
-
-.mainpage {
+  }
+  
+  .mainpage {
     display: flex;
     position: relative;
-}
-
-.menu-geral {
+  }
+  
+  .menu-geral {
     border-right: solid 1px #d9d9d9;
     width: 30vh;
     height: 94vh;
-
     position: fixed;
-
-    /* display: flex; */
-    /* justify-self: center; */
-}
-
-.over-container {
+  }
+  
+  .over-container {
     display: flex;
     margin-top: 25px;
     border-radius: 10px;
     height: 40px;
     width: 25vh;
     background-color: rgba(227, 39, 38, 0.31);
-}
-
-.over-text {
+  }
+  
+  .over-text {
     margin-left: 8px;
     color: #000;
     font-size: 20px;
-}
-
-.over-icon {
+  }
+  
+  .over-icon {
     margin-left: 10px;
     margin-top: 5px;
-}
-
-.dash-container {
+  }
+  
+  .dash-container {
     display: flex;
     margin-top: 25px;
     border-radius: 10px;
     height: 40px;
     width: 25vh;
-}
-
-.dash-text {
+  }
+  
+  .dash-text {
     margin-left: 8px;
     color: #000;
     font-size: 20px;
-}
-
-.dash-icon {
+  }
+  
+  .dash-icon {
     margin-left: 10px;
     margin-top: 5px;
-}
-
-.config-container {
+  }
+  
+  .config-container {
     margin-top: 40vmax;
     display: flex;
-}
-
-.config-text {
+  }
+  
+  .config-text {
     margin-left: 8px;
     color: #000;
     font-size: 20px;
-}
-
-.config-icon {
+  }
+  
+  .config-icon {
     margin-left: 10px;
     margin-top: 5px;
-}
-
-.logout-container {
+  }
+  
+  .logout-container {
     display: flex;
-}
-
-.logout-text {
+  }
+  
+  .logout-text {
     margin-left: 8px;
     color: #000;
     font-size: 20px;
-}
-
-.logout-icon {
+  }
+  
+  .logout-icon {
     margin-left: 10px;
     margin-top: 5px;
-}
-
-.help-container {
+  }
+  
+  .help-container {
     display: flex;
-}
-
-.help-text {
+  }
+  
+  .help-text {
     margin-left: 8px;
     color: #000;
     font-size: 20px;
-}
-
-.help-icon {
+  }
+  
+  .help-icon {
     margin-left: 10px;
     margin-top: 5px;
-}
-
-.content {
+  }
+  
+  .header {
     margin-left: 30vh;
     padding: 20px;
     display: flex;
-}
-
-.content-title {
+    
+  }
+  
+  .content-title {
     color: #1d3c6d;
-    font-family: "Raleway", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 37px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-.search {
+    margin-right: 70vh;
+  }
+  
+  .search {
     display: flex;
-    border-radius: 54.839px;
     background: #d9d9d9;
+    height: 3vh;
     width: 35vh;
-    align-items: start;
-    justify-content: start;
-    height: 4vh;
-}
-
-.search-text {
-    margin-top: 20px;
-}
-
-.search-icon {
-    margin-top: 16px;
-}
+    min-height: 30px;
+    border-radius: 20px;
+  }
+  
+  
+  input[type="text"] {
+    background-image: url("/img/iconamoon_search-thin.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    margin-right: auto;
+    background-position-x: 29vh;
+    background-position-y: top;
+    margin-right: 34px;
+    padding: 2vh 10px;
+  }
+  
+  input[type="text"]::placeholder {
+    margin-left: 20px;
+    margin-top: 3px;
+    color:  rgba(136, 136, 136, 0.87);
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  
