@@ -2,129 +2,135 @@
     width: 15vh;
     margin-left: 8px;
     margin-bottom: 20px;
-  }
-  
-  .menu-kraft {
+}
+
+.menu-kraft {
     margin-top: 3vh;
     margin-left: 3vh;
     width: 200px;
-  
+
     height: 97vh;
-  }
-  
-  .menu-icon {
+}
+
+.menu-icon {
     margin-bottom: 20px;
-  }
-  
-  .menu-logo {
+}
+
+.menu-logo {
     border-bottom: solid 1px #d9d9d9;
-  }
-  
-  .mainpage {
+}
+
+.mainpage {
     display: flex;
     position: relative;
-  }
-  
-  .menu-geral {
+}
+
+.menu-geral {
     border-right: solid 1px #d9d9d9;
     width: 30vh;
     height: 94vh;
     position: fixed;
-  }
-  
-  .over-container {
+}
+
+.over-container {
     display: flex;
     margin-top: 25px;
     border-radius: 10px;
     height: 40px;
     width: 25vh;
     background-color: rgba(227, 39, 38, 0.31);
-  }
-  
-  .over-text {
+}
+
+.over-text {
     margin-left: 8px;
     color: #000;
     font-size: 20px;
-  }
-  
-  .over-icon {
+}
+
+.over-icon {
     margin-left: 10px;
     margin-top: 5px;
-  }
-  
-  .dash-container {
+}
+
+.dash-container {
     display: flex;
     margin-top: 25px;
     border-radius: 10px;
     height: 40px;
     width: 25vh;
-  }
-  
-  .dash-text {
+}
+
+.dash-text {
     margin-left: 8px;
     color: #000;
     font-size: 20px;
-  }
-  
-  .dash-icon {
+}
+
+.dash-icon {
     margin-left: 10px;
     margin-top: 5px;
-  }
-  
-  .config-container {
-    margin-top: 40vmax;
+}
+
+.footer-menu {
     display: flex;
-  }
-  
-  .config-text {
-    margin-left: 8px;
-    color: #000;
-    font-size: 20px;
-  }
-  
-  .config-icon {
-    margin-left: 10px;
-    margin-top: 5px;
-  }
-  
-  .logout-container {
+    flex-direction: column;
+    margin-top: 48vh;
+
+}
+
+.config-container {
     display: flex;
-  }
-  
-  .logout-text {
+}
+
+.config-text {
     margin-left: 8px;
     color: #000;
     font-size: 20px;
-  }
-  
-  .logout-icon {
+}
+
+.config-icon {
     margin-left: 10px;
-    margin-top: 5px;
-  }
-  
-  .help-container {
+
+}
+
+.logout-container {
     display: flex;
-  }
-  
-  .help-text {
+}
+
+.logout-text {
     margin-left: 8px;
     color: #000;
     font-size: 20px;
-  }
-  
-  .help-icon {
+}
+
+.logout-icon {
     margin-left: 10px;
     margin-top: 5px;
-  }
-  
-  .header {
+}
+
+.help-container {
+    display: flex;
+}
+
+.help-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.help-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.header {
     margin-left: 30vh;
     padding: 20px;
     display: flex;
-    
-  }
-  
-  .content-title {
+
+}
+
+.content-title {
     color: #1d3c6d;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 37px;
@@ -132,19 +138,19 @@
     font-weight: 700;
     line-height: normal;
     margin-right: 70vh;
-  }
-  
-  .search {
+}
+
+.search {
     display: flex;
     background: #d9d9d9;
     height: 3vh;
     width: 35vh;
     min-height: 30px;
     border-radius: 20px;
-  }
-  
-  
-  input[type="text"] {
+}
+
+
+input[type="text"] {
     background-image: url("/img/iconamoon_search-thin.png");
     background-repeat: no-repeat;
     background-size: 25px;
@@ -153,14 +159,146 @@
     background-position-y: top;
     margin-right: 34px;
     padding: 2vh 10px;
-  }
-  
-  input[type="text"]::placeholder {
+}
+
+input[type="text"]::placeholder {
     margin-left: 20px;
     margin-top: 3px;
-    color:  rgba(136, 136, 136, 0.87);
+    color: rgba(136, 136, 136, 0.87);
     font-weight: bold;
     font-family: "Raleway", sans-serif;
-  }
-  
-  
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-grafico1 {
+    display: flex;
+    border: solid;
+    height: 32vh;
+    margin-left: 30vh;
+    width: 67%;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.media-box {
+    width: 233.013px;
+    height: 30vh;
+    flex-shrink: 0;
+    border-radius: 21.417px;
+    background: rgba(29, 60, 109, 0.25);
+}
+
+.media-box-inside {
+    border-radius: 21.508px 21.508px 22.583px 22.583px;
+    background: rgba(29, 60, 109, 0.28);
+    width: 234px;
+    height: 100.135px;
+    flex-shrink: 0;
+    display: flex;
+
+}
+
+.total-coment {
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.dots-icon {
+    width: 24.693px;
+    height: 27.945px;
+    flex-shrink: 0;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25%;
+}
+
+.qtd-coment {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grafico-barra {
+    height: 30.5vh;
+    width: 70%;
+}
+
+.barras {
+    display: flex;
+    align-items: flex-end;
+    border: solid;
+    height: 30.5vh;
+    justify-content: space-between;
+
+}
+
+
+.barra1 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 10vh;
+    height: 15vh;
+    flex-shrink: 0;
+}
+
+.barra2 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 10vh;
+    height: 22vh;
+    flex-shrink: 0;
+}
+
+.barra3 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 10vh;
+    height: 19vh;
+    flex-shrink: 0;
+}
+
+.barra4 {
+    border-radius: 25px;
+    width: 10vh;
+    height: 25vh;
+    flex-shrink: 0;
+    background: #E32726;
+}
+
+.barra5 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 10vh;
+    height: 20vh;
+    flex-shrink: 0;
+}
+
+.barra6 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 10vh;
+    height: 147px;
+    flex-shrink: 0;
+}
+
+.meses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mes1 {
+    margin-left: 4.0vh;
+}
+
+.mes6 {
+    margin-right: 4.0vh;
+}
