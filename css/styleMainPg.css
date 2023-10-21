@@ -172,16 +172,25 @@ input[type="text"]::placeholder {
 .content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+
+
+
 }
 
 .container-grafico1 {
     display: flex;
-    border: solid;
-    height: 32vh;
-    margin-left: 30vh;
+    height: 38vh;
+    margin-left: 20%;
     width: 67%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
+
+    margin-bottom: 40px;
+
+
+
 
 }
 
@@ -211,7 +220,6 @@ input[type="text"]::placeholder {
 .dots-icon {
     width: 24.693px;
     height: 27.945px;
-    flex-shrink: 0;
     margin-top: 1vh;
     margin-left: 1vh;
 }
@@ -219,7 +227,7 @@ input[type="text"]::placeholder {
 .media-icons {
     display: flex;
     justify-content: space-around;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 .qtd-coment {
@@ -227,16 +235,39 @@ input[type="text"]::placeholder {
     justify-content: space-around;
 }
 
+
 .grafico-barra {
-    height: 30.5vh;
+    height: 40vh;
     width: 70%;
+    margin-left: 25vh;
+
+
+
 }
+
+.title-graphic1 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 32.104px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.month {
+    color: rgba(0, 0, 0, 0.95);
+    font-family: Rosario;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 .barras {
     display: flex;
     align-items: flex-end;
-    border: solid;
-    height: 30.5vh;
+    height: 20vh;
     justify-content: space-between;
 
 }
@@ -245,31 +276,31 @@ input[type="text"]::placeholder {
 .barra1 {
     border-radius: 25px;
     background: rgba(29, 60, 109, 0.26);
-    width: 10vh;
-    height: 15vh;
+    width: 9vh;
+    height: 10vh;
     flex-shrink: 0;
 }
 
 .barra2 {
     border-radius: 25px;
     background: rgba(29, 60, 109, 0.26);
-    width: 10vh;
-    height: 22vh;
+    width: 9vh;
+    height: 12vh;
     flex-shrink: 0;
 }
 
 .barra3 {
     border-radius: 25px;
     background: rgba(29, 60, 109, 0.26);
-    width: 10vh;
-    height: 19vh;
+    width: 9vh;
+    height: 15vh;
     flex-shrink: 0;
 }
 
 .barra4 {
     border-radius: 25px;
-    width: 10vh;
-    height: 25vh;
+    width: 9vh;
+    height: 20vh;
     flex-shrink: 0;
     background: #E32726;
 }
@@ -277,16 +308,16 @@ input[type="text"]::placeholder {
 .barra5 {
     border-radius: 25px;
     background: rgba(29, 60, 109, 0.26);
-    width: 10vh;
-    height: 20vh;
+    width: 9vh;
+    height: 10vh;
     flex-shrink: 0;
 }
 
 .barra6 {
     border-radius: 25px;
     background: rgba(29, 60, 109, 0.26);
-    width: 10vh;
-    height: 147px;
+    width: 9vh;
+    height: 13vh;
     flex-shrink: 0;
 }
 
@@ -296,9 +327,144 @@ input[type="text"]::placeholder {
 }
 
 .mes1 {
-    margin-left: 4.0vh;
+    margin-left: 2.6vh;
 }
 
 .mes6 {
-    margin-right: 4.0vh;
+    margin-right: 2.6vh;
+}
+
+.container-grafico2 {
+
+    display: flex;
+    height: 38vh;
+    margin-left: 20%;
+    width: 74.8%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.produto-container {
+
+    width: 342.549px;
+    height: 236px;
+    border-radius: 19.916px;
+    background: rgba(227, 39, 38, 0.54);
+}
+
+.produto-icon {
+    width: 71px;
+    height: 71px;
+    flex-shrink: 0;
+    margin-top: 6vh;
+    margin-left: 2.5vh;
+
+
+}
+
+.product-container-content {
+    display: flex;
+}
+
+.produto-container-inside {
+    display: flex;
+    border-radius: 20px 20px 21px 21px;
+    background: rgba(227, 39, 38, 0.79);
+    width: 344px;
+    height: 59px;
+    align-items: center;
+    justify-content: center;
+}
+
+.produto-container-text {
+    margin-top: 6vh;
+    margin-left: 2vh;
+}
+
+.produto-description {
+    color: #000;
+    font-family: Raleway;
+    font-size: 16.286px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.produto-title {
+    margin-top: 1.3vh;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 188px;
+}
+
+.container-grafico-pizza {
+    display: flex;
+}
+
+
+
+.grafico-pizza-title {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 32.104px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.legenda-mulher {
+    border-left: 5px solid #E32726;
+    border-width: 2vh;
+    border-radius: 8px;
+
+}
+
+.legenda-homem {
+    border-left: 5px solid #1D3C6D;
+    border-width: 2vh;
+    border-radius: 8px;
+
+}
+
+.grafico-pizza-description {
+
+    margin-right: 3vh;
+}
+
+.grafico-pizza {
+    margin-right: 25vh;
+}
+
+
+.box-circle svg {
+    width: 150px;
+    height: 150px;
+}
+
+circle {
+    width: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #E32726;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+
+}
+
+circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #E32726;
+}
+
+circle:nth-child(2) {
+    stroke-dashoffset: 308;
+    stroke: #1d3c6d;
 }

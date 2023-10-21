@@ -1,127 +1,126 @@
 html {
-    font-family: "Raleway", sans-serif;
-  }
-  
-  .img {
-    height: 11vh;
-    margin-bottom: 10px;
-  }
-  
-  input[type="submit"] {
-    background-color: #1d3c6d;
-    color: white;
-    transition: 0.5s;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: transparent;
-    color: #1d3c6d;
-    background-color: transparent;
-    border: solid 2px #1d3c6d;
-  }
-  
-  input[type="text"] {
-    background-image: url("/img/person_24px_outlined.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: 36vh;
-  }
-  input[type="password"] {
-    background-image: url("/img/Group\ 218.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: 36vh;
-  }
-  input[type="email"] {
-    background-image: url("/img/Gmail\ Logo\ \(1\).png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: 36vh;
-  }
-  .register {
-    width: 100%;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .box {
-    width: 380px;
-    height: 600px;
-    flex-shrink: 0;
-    border-radius: 29.499px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: #f2f2f2;
-    box-shadow: 0px 16.36364px 16.36364px 0px rgba(0, 0, 0, 0.25);
-  }
-  
-  .login-title {
-    color: rgb(84, 84, 84);
-    margin-bottom: 3vh;
-    font-size: 20px;
-  }
-  
-  .login-desc {
-    color: #898888;
-  }
-  
-  .title {
-    margin-top: 20px;
-  }
-  
-  .input-edit {
-    box-shadow: 0px 17.76206px 17.76206px 0px rgba(0, 0, 0, 0.25);
-    color: rgba(0, 0, 0, 0.44);
-    font-family: Raleway;
-    font-size: 19.133px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border-radius: 6.404px 6.404px 0px 0px;
-    width: 300px;
-    height: 60.597px;
-    flex-shrink: 0;
-  }
-  
-  .register-title {
-    align-items: end;
-    display: flex;
-    justify-content: center;
-    color: #000;
-    margin-top: 10px;
-    font-family: Inter;
-    font-size: 17.762px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
-  #register {
-    margin-top: 15vh;
-  }
-  
-  .register-title a {
-    font-family: Inter;
-    font-size: 17.762px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-    color: #e32726;
-  }
-  
-  .bg-image-1 {
-    background-image: url("/img/Login\ \(3\).png");
-    height: 100px;
-  }
-  
+  font-family: "Raleway", sans-serif;
+}
+
+.img {
+  height: 11vh;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #1d3c6d;
+  color: white;
+  transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+  background-color: transparent;
+  color: #1d3c6d;
+  background-color: transparent;
+  border: solid 2px #1d3c6d;
+}
+
+input[type="text"] {
+  background-image: url("/img/person_24px_outlined.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 36vh;
+}
+input[type="password"] {
+  background-image: url("/img/Group\ 218.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 36vh;
+}
+input[type="email"] {
+  background-image: url("/img/Gmail\ Logo\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 36vh;
+}
+.register {
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 380px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 29.499px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #f2f2f2;
+  box-shadow: 0px 16.36364px 16.36364px 0px rgba(0, 0, 0, 0.25);
+}
+
+.login-title {
+  color: rgb(84, 84, 84);
+  margin-bottom: 3vh;
+  font-size: 20px;
+}
+
+.login-desc {
+  color: #898888;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.input-edit {
+  box-shadow: 0px 17.76206px 17.76206px 0px rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 0.44);
+  font-family: Raleway;
+  font-size: 19.133px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 6.404px 6.404px 0px 0px;
+  width: 300px;
+  height: 60.597px;
+  flex-shrink: 0;
+}
+
+.register-title {
+  align-items: end;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 17.762px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#register {
+  margin-top: 15vh;
+}
+
+.register-title a {
+  font-family: Inter;
+  font-size: 17.762px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  color: #e32726;
+}
+
+.bg-image-1 {
+  background-image: url("/img/Login\ \(3\).png");
+  height: 100px;
+}
