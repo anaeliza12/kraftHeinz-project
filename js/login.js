@@ -24,7 +24,9 @@ const login = async () => {
 
         if (response == 200) {
             const log = await connection.text()
-            alert(log)
+           
+
+            window.location.href = "http://127.0.0.1:5501/html/dashboard.html"
 
         } else if (response == 404) {
 
