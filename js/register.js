@@ -19,15 +19,15 @@ const register = async () => {
             "Content-Type": "application/json"
         }
     }
-    const url = "http://localhost:8080/registerData/auth"
+    const url = "http://localhost:8080/register"
     try {
 
         const connection = await fetch(url,options)
         const response = connection.status
 
-        if (response == 200) {
+        if (response == 201) {
             const log = await connection.text()
-            alert(log)
+            window.location.href = "http://127.0.0.1:5501/html/dashboard.html"
 
         } else if (response == 404) {
 
