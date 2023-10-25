@@ -27,7 +27,7 @@ const register = async () => {
 
         if (response == 201) {
             const log = await connection.text()
-            window.location.href = "http://127.0.0.1:5501/html/dashboard.html"
+            window.location.href = "http://127.0.0.1:5501/html/mainpage.html"
 
         } else if (response == 404) {
 
