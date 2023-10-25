@@ -1,0 +1,491 @@
+.logo-kraft {
+    width: 15vh;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+.menu-kraft {
+    margin-top: 3vh;
+    margin-left: 3vh;
+    width: 200px;
+
+    height: 97vh;
+}
+
+.menu-icon {
+    margin-bottom: 20px;
+}
+
+.menu-logo {
+    border-bottom: solid 1px #d9d9d9;
+}
+
+.link-over p {
+    text-decoration: none;
+}
+
+.dashboard {
+    display: flex;
+    position: relative;
+}
+
+.menu-geral {
+    border-right: solid 1px #d9d9d9;
+    width: 30vh;
+    height: 94vh;
+    position: fixed;
+}
+
+.over-container {
+    display: flex;
+    margin-top: 25px;
+    border-radius: 10px;
+    height: 40px;
+    width: 25vh;
+
+}
+
+.over-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.over-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dash-container {
+    display: flex;
+    margin-top: 25px;
+    border-radius: 10px;
+    height: 40px;
+    width: 25vh;
+    text-decoration: none;
+    background-color: rgba(227, 39, 38, 0.31);
+}
+
+.dash-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.dash-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48vh;
+
+}
+
+.config-container {
+    display: flex;
+}
+
+.config-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.config-icon {
+    margin-left: 10px;
+
+}
+
+.logout-container {
+    display: flex;
+}
+
+.logout-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.logout-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.help-container {
+    display: flex;
+}
+
+.help-text {
+    margin-left: 8px;
+    color: #000;
+    font-size: 20px;
+}
+
+.help-icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.header {
+    margin-left: 30vh;
+    padding: 20px;
+    display: flex;
+
+}
+
+.content-title {
+    color: #1d3c6d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 70vh;
+}
+
+.search {
+    display: flex;
+    background: #d9d9d9;
+    height: 3vh;
+    width: 35vh;
+    min-height: 30px;
+    border-radius: 20px;
+}
+
+
+input[type="text"] {
+    background-image: url("/img/iconamoon_search-thin.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    margin-right: auto;
+    background-position-x: 29vh;
+    background-position-y: top;
+    margin-right: 34px;
+    padding: 2vh 10px;
+}
+
+input[type="text"]::placeholder {
+    margin-left: 20px;
+    margin-top: 3px;
+    color: rgba(136, 136, 136, 0.87);
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+
+
+
+
+
+}
+
+.container-grafico1 {
+    display: flex;
+    height: 38vh;
+    margin-left: 20%;
+    width: 67%;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    margin-bottom: 40px;
+
+
+
+
+}
+
+.media-box {
+    width: 233.013px;
+    height: 30vh;
+    flex-shrink: 0;
+    border-radius: 21.417px;
+    background: rgba(29, 60, 109, 0.25);
+}
+
+.media-box-inside {
+    border-radius: 21.508px 21.508px 22.583px 22.583px;
+    background: rgba(29, 60, 109, 0.28);
+    width: 234px;
+    height: 100.135px;
+    flex-shrink: 0;
+    display: flex;
+
+}
+
+.total-coment {
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.dots-icon {
+    width: 24.693px;
+    height: 27.945px;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+.qtd-coment {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.grafico-barra {
+    height: 40vh;
+    width: 70%;
+    margin-left: 25vh;
+
+
+
+}
+
+.title-graphic1 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 32.104px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.month {
+    color: rgba(0, 0, 0, 0.95);
+    font-family: Rosario;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.barras {
+    display: flex;
+    align-items: flex-end;
+    height: 20vh;
+    justify-content: space-between;
+
+}
+
+
+.barra1 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 9vh;
+    height: 10vh;
+    flex-shrink: 0;
+}
+
+.barra2 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 9vh;
+    height: 12vh;
+    flex-shrink: 0;
+}
+
+.barra3 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 9vh;
+    height: 15vh;
+    flex-shrink: 0;
+}
+
+.barra4 {
+    border-radius: 25px;
+    width: 9vh;
+    height: 20vh;
+    flex-shrink: 0;
+    background: #E32726;
+}
+
+.barra5 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 9vh;
+    height: 10vh;
+    flex-shrink: 0;
+}
+
+.barra6 {
+    border-radius: 25px;
+    background: rgba(29, 60, 109, 0.26);
+    width: 9vh;
+    height: 13vh;
+    flex-shrink: 0;
+}
+
+.meses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mes1 {
+    margin-left: 2.6vh;
+}
+
+.mes6 {
+    margin-right: 2.6vh;
+}
+
+.container-grafico2 {
+
+    display: flex;
+    height: 32vh;
+    margin-left: 20%;
+    width: 74.8%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.produto-container {
+
+    width: 342.549px;
+    height: 236px;
+    border-radius: 19.916px;
+    background: rgba(227, 39, 38, 0.54);
+}
+
+.produto-icon {
+    width: 71px;
+    height: 71px;
+    flex-shrink: 0;
+    margin-top: 6vh;
+    margin-left: 2.5vh;
+
+
+}
+
+.product-container-content {
+    display: flex;
+}
+
+.produto-container-inside {
+    display: flex;
+    border-radius: 20px 20px 21px 21px;
+    background: rgba(227, 39, 38, 0.79);
+    width: 344px;
+    height: 59px;
+    align-items: center;
+    justify-content: center;
+}
+
+.produto-container-text {
+    margin-top: 6vh;
+    margin-left: 2vh;
+}
+
+.produto-description {
+    color: #000;
+    font-family: Raleway;
+    font-size: 16.286px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.produto-title {
+    margin-top: 1.3vh;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 188px;
+}
+
+.container-grafico-pizza {
+    display: flex;
+
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.grafico-pizza-title {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 32.104px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.legenda-mulher {
+    border-left: 5px solid #E32726;
+    border-width: 2vh;
+    border-radius: 8px;
+
+}
+
+.legenda-homem {
+    border-left: 5px solid #1D3C6D;
+    border-width: 2vh;
+    border-radius: 8px;
+
+}
+
+.grafico-pizza-description {
+
+    margin-right: 3vh;
+}
+
+.grafico-pizza {
+    margin-right: 25vh;
+
+}
+
+
+.box-circle svg {
+    width: 150px;
+    height: 150px;
+}
+
+circle {
+    width: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #E32726;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+
+}
+
+circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #E32726;
+}
+
+circle:nth-child(2) {
+    stroke-dashoffset: 308;
+    stroke: #1d3c6d;
+}
+
+.dashboard-container {
+ 
+    margin-left: 40vh;
+    margin-top: 5vh;
+    
+}
