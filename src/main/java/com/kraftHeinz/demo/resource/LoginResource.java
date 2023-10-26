@@ -24,7 +24,7 @@ public class LoginResource {
 		if (service.authentication(login) == true)
 			return ResponseEntity.ok().body("Login successful");
 		else
-			return ResponseEntity.badRequest().build();
+			return ResponseEntity.notFound().build();
 
 	}
 	
