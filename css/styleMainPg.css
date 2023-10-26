@@ -19,9 +19,11 @@
 .menu-logo {
     border-bottom: solid 1px #d9d9d9;
 }
+
 .link-over p {
     text-decoration: none;
-  }
+}
+
 .mainpage {
     display: flex;
     position: relative;
@@ -144,14 +146,6 @@
     margin-right: 70vh;
 }
 
-.search {
-    display: flex;
-    background: #d9d9d9;
-    height: 3vh;
-    width: 35vh;
-    min-height: 30px;
-    border-radius: 20px;
-}
 
 
 input[type="text"] {
@@ -221,17 +215,13 @@ input[type="text"]::placeholder {
     margin-left: 1vh;
 }
 
-.dots-icon {
-    width: 24.693px;
-    height: 27.945px;
-    margin-top: 1vh;
-    margin-left: 1vh;
-}
+
 
 .media-icons {
     display: flex;
     justify-content: space-around;
-    margin-top: 15%;
+    margin-top: 11%;
+    height: 7vh;
 }
 
 .qtd-coment {
@@ -478,4 +468,29 @@ circle:nth-child(1) {
 circle:nth-child(2) {
     stroke-dashoffset: 308;
     stroke: #1d3c6d;
+}
+
+.filter {
+    display: flex;
+
+}
+
+
+input[type="submit"] {
+    background-color: #1d3c6d;
+    color: white;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    border: solid 2px #1d3c6d;
+}
+
+
+.esg-icon {
+
+    height: 4vh;
+    margin-left: 4vh;
+    color: #E32726;
+
 }
