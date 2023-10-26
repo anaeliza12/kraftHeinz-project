@@ -28,19 +28,6 @@ public class LoginService {
 
 	}
 	
-	public boolean recoverPassword(String email, String password) {
-		boolean verify = false;
-		List<Login> logins = repository.findAll();
-		for (Login l : logins) {
-			if (l.getUsername().equalsIgnoreCase(email)) {
-				l.setPassword(password);
-				verify = true;
-				break;
-			}
 
-		}
-		return verify;
-
-	}
 
 }
