@@ -1,16 +1,21 @@
 const dataEmail = document.getElementById("email")
 const passwordField = document.getElementById("password");
+const passConfirmField = document.getElementById("confirmPass");
 
 
 let email = null;
 
 let passw = null;
+let passConfirm = null;
 
 const pass = async () => {
 
     const options = {
         method: "PUT",
-        body: passw,
+        body: JSON.stringify({
+            password: passwordField.value,
+            confirmPass: passConfirmField.value
+        }),
         headers: {
             "Content-Type": "application/json"
         }
@@ -53,6 +58,7 @@ const reset = async () => {
         if (response == 200) {
 
             passwordField.removeAttribute("hidden");
+            passConfirmField.removeAttribute("hidden")
 
 
         } else if (response == 404) {
@@ -74,13 +80,14 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener('submit', (event) => {
         event.preventDefault()
 
-        if (passwordField.hasAttribute("hidden")) {
+        if (passwordField.hasAttribute("hidden") && passConfirmField.hasAttribute("hidden") ) {
             // Se o campo de senha estiver oculto, chame a função `reset`
             email = dataEmail.value;
             reset();
         } else {
             // Se o campo de senha não estiver oculto, chame a função `pass`
             passw = passwordField.value;
+            passConfirm = passConfirmField.value
             pass();
         }
 
