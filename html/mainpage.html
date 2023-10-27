@@ -134,9 +134,7 @@
       <div class="header">
         <h1 class="content-title">Relatório Semanal</h1>
         <div class="filter">
-          <input class="form-control" type="date" id="start_date" name="start_date">
-          <input class="form-control" type="date" id="end_date" name="end_date">
-          <input value="Filtrar" class="form-control" type="submit">
+          <input name="search" type="text" class="search" placeholder="Search">
 
         </div>
         </input>
@@ -150,16 +148,16 @@
           </div>
 
           <div class="media-icons">
-            <img src="/img/Sprout.png" alt="ambiental">
-            <img src="/img/Users.png" alt="social">
-            <img src="/img/Museum.png" alt="governamental">
+            <img src="/img/Sprout.png" alt="ambiental" class="icon">
+            <img src="/img/Users.png" alt="social" class="icon">
+            <img src="/img/Museum.png" alt="governamental" class="icon">
 
 
           </div>
           <div class="qtd-coment">
-            <p>360</p>
-            <p>420</p>
-            <p>190</p>
+            <p class="icon">360</p>
+            <p class="icon">420</p>
+            <p class="icon">190</p>
           </div>
         </div>
 
@@ -169,7 +167,7 @@
           <p class="title-graphic1">
             Comentários Semestre
           </p>
-          <p class="month">Outubro 01/10/2023 - 27/10/2023
+          <p class="month">Outubro 
             <br class="monthly-amount"> 1245
           </p>
           <div class="barras">
@@ -230,8 +228,8 @@
           <div class="grafico-pizza">
             <div class="box-circle">
               <svg width="200vh" height="400">
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle cx="70" cy="70" r="70"></circle>
+                <circle class="pizza1" cx="70" cy="70" r="70"></circle>
+                <circle class="pizza2" cx="70" cy="70" r="70"></circle>
               </svg>
             </div>
           </div>
@@ -241,6 +239,8 @@
     </div>
 
   </div>
+
+  <script src="/js/main.js"></script>
 </body>
 
 </html>

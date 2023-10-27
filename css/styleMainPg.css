@@ -130,7 +130,7 @@
 }
 
 .header {
-    margin-left: 30vh;
+    margin-left: 35vh;
     padding: 20px;
     display: flex;
 
@@ -145,7 +145,6 @@
     line-height: normal;
     margin-right: 70vh;
 }
-
 
 
 input[type="text"] {
@@ -177,6 +176,28 @@ input[type="text"]::placeholder {
 
 }
 
+.search {
+    display: flex;
+    background: #d9d9d9;
+    height: 3vh;
+    width: 35vh;
+    min-height: 30px;
+    border-radius: 20px;
+}
+
+
+input[type="text"] {
+    background-image: url("/img/iconamoon_search-thin.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    margin-right: auto;
+    background-position-x: 29vh;
+    background-position-y: top;
+    margin-right: 34px;
+    padding: 2vh 10px;
+}
+
+
 .container-grafico1 {
     display: flex;
     height: 38vh;
@@ -198,6 +219,11 @@ input[type="text"]::placeholder {
     flex-shrink: 0;
     border-radius: 21.417px;
     background: rgba(29, 60, 109, 0.25);
+}
+
+.media-box:hover {
+    transform: scale(1.10);
+    transition: transform 0.2s ease-in-out;
 }
 
 .media-box-inside {
@@ -239,6 +265,16 @@ input[type="text"]::placeholder {
 
 }
 
+
+.icon:hover {
+    transform: scale(1.10);
+    transition: transform 0.2s ease-in-out;
+}
+
+.grafico-legenda {
+    margin-right: 10vh;
+}
+
 .title-graphic1 {
     color: #000;
     font-family: Raleway;
@@ -273,6 +309,12 @@ input[type="text"]::placeholder {
     width: 9vh;
     height: 10vh;
     flex-shrink: 0;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.barra1:hover {
+    transform: scale(1.10);
+    background-color: #E32726;
 }
 
 .barra2 {
@@ -281,14 +323,25 @@ input[type="text"]::placeholder {
     width: 9vh;
     height: 12vh;
     flex-shrink: 0;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+.barra2:hover {
+    transform: scale(1.10);
+    background-color: #E32726;
+}
 .barra3 {
     border-radius: 25px;
     background: rgba(29, 60, 109, 0.26);
     width: 9vh;
     height: 15vh;
     flex-shrink: 0;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.barra3:hover {
+    transform: scale(1.10);
+    background-color: #E32726;
 }
 
 .barra4 {
@@ -296,8 +349,15 @@ input[type="text"]::placeholder {
     width: 9vh;
     height: 20vh;
     flex-shrink: 0;
-    background: #E32726;
+    background: rgba(29, 60, 109, 0.26);
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
+
+.barra4:hover {
+    transform: scale(1.10);
+    background-color: #E32726;
+}
+
 
 .barra5 {
     border-radius: 25px;
@@ -305,14 +365,24 @@ input[type="text"]::placeholder {
     width: 9vh;
     height: 10vh;
     flex-shrink: 0;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+.barra5:hover {
+    transform: scale(1.10);
+    background-color: #E32726;
+}
 .barra6 {
     border-radius: 25px;
     background: rgba(29, 60, 109, 0.26);
     width: 9vh;
     height: 13vh;
-    flex-shrink: 0;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.barra6:hover {
+    transform: scale(1.10);
+    background-color: #E32726;
 }
 
 .meses {
@@ -338,6 +408,7 @@ input[type="text"]::placeholder {
     align-items: flex-end;
 }
 
+
 .produto-container {
 
     width: 342.549px;
@@ -346,12 +417,24 @@ input[type="text"]::placeholder {
     background: rgba(227, 39, 38, 0.54);
 }
 
+.produto-container:hover {
+    transform: scale(1.10);
+    transition: transform 0.2s ease-in-out;
+}
+
 .produto-icon {
     width: 71px;
     height: 71px;
     flex-shrink: 0;
     margin-top: 6vh;
     margin-left: 2.5vh;
+
+
+}
+
+.produto-icon:hover {
+    transform: scale(1.25);
+    transition: transform 0.2s ease-in-out;
 
 
 }
@@ -398,7 +481,6 @@ input[type="text"]::placeholder {
 
 .container-grafico-pizza {
     display: flex;
-
     height: 30vh;
     align-items: center;
     justify-content: center;
@@ -406,6 +488,12 @@ input[type="text"]::placeholder {
 
 }
 
+
+.container-grafico-pizza:hover {
+    transform: scale(1.10);
+    transition: transform 0.2s ease-in-out;
+
+}
 
 
 .grafico-pizza-title {

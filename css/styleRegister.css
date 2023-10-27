@@ -96,6 +96,7 @@ input[type="email"] {
 .register-title {
   align-items: end;
   display: flex;
+
   justify-content: center;
   color: #000;
   margin-top: 10px;
@@ -105,6 +106,7 @@ input[type="email"] {
   font-weight: 400;
   line-height: normal;
 }
+
 
 #register {
   margin-top: 15vh;
@@ -123,4 +125,29 @@ input[type="email"] {
 .bg-image-1 {
   background-image: url("/img/Login\ \(4\).png");
   height: 100px;
+}
+
+.termos {
+  margin-top: 9vh;
+  display: flex;
+  font-size: 12px;
+  justify-content: start;
+  text-decoration: none;
+  
+}
+
+.label-title {
+  margin-right: 2vh;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #ccc;
+  
+}
+
+input[type="checkbox"]:checked {
+  background-color: #E32726;
 }

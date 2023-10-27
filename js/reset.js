@@ -6,16 +6,13 @@ const passConfirmField = document.getElementById("confirmPass");
 let email = null;
 
 let passw = null;
-let passConfirm = null;
+
 
 const pass = async () => {
 
     const options = {
         method: "PUT",
-        body: JSON.stringify({
-            password: passwordField.value,
-            confirmPass: passConfirmField.value
-        }),
+        body: passw,
         headers: {
             "Content-Type": "application/json"
         }

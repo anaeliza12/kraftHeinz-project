@@ -23,6 +23,8 @@ input[type="text"] {
   background-position-x: 36vh;
 }
 
+
+
 input[type="text"]::placeholder {
   margin-top: 3px;
   color: rgba(136, 136, 136, 0.87);
@@ -50,6 +52,33 @@ input[type="password"]::placeholder {
   font-size: 12px;
   justify-content: end;
   text-decoration: none;
+}
+
+
+.termos {
+  margin-top: 30px;
+  margin-bottom: 3vh;
+  display: flex;
+  font-size: 12px;
+  justify-content: start;
+  text-decoration: none;
+  
+}
+
+.label-title {
+  margin-right: 2vh;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #ccc;
+  
+}
+
+input[type="checkbox"]:checked {
+  background-color: #E32726;
 }
 
 input[type="submit"]:hover {
@@ -140,3 +169,4 @@ input[type="submit"]:hover {
   background-image: url("/img/Login\ \(4\).png");
   height: 100px;
 }
+
