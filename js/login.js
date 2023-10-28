@@ -1,5 +1,7 @@
 const dataEmail = document.getElementById("username")
 const dataPassword = document.getElementById("password")
+const lgpdFlag = document.querySelector("#lgpd-flag");
+const submitButton = document.querySelector("input[type='submit']");
 
 const loginData = {
     password: "",
@@ -18,14 +20,20 @@ const login = async () => {
     }
     const url = "http://localhost:8080/login/auth"
     try {
-
+        
         const connection = await fetch(url,options)
         const response = connection.status
-
+        
         if (response == 200) {
             const log = await connection.text()
-           
-            window.location.href = "http://127.0.0.1:5501/html/mainpage.html"
+            
+            submitButton.addEventListener("click", () => {
+              if (!lgpdFlag.checked) {
+                alert("Você precisa aceitar os termos de LGPD para continuar.");
+                return false;
+              }else
+              window.location.href = "http://127.0.0.1:5501/html/mainpage.html"
+            });
 
         } else if (response == 404) {
 
@@ -54,3 +62,4 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
 })
+

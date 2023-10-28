@@ -1,6 +1,8 @@
 const dataUser = document.getElementById("username")
 const dataPassword = document.getElementById("password")
 const dataEmail = document.getElementById("email")
+const lgpdFlag = document.querySelector("#lgpd-flag");
+const submitButton = document.querySelector("input[type='submit']");
 
 
 const registerData = {
@@ -22,12 +24,20 @@ const register = async () => {
     const url = "http://localhost:8080/register"
     try {
 
+        
         const connection = await fetch(url,options)
         const response = connection.status
 
         if (response == 201) {
             const log = await connection.text()
-            window.location.href = "http://127.0.0.1:5501/html/mainpage.html"
+            submitButton.addEventListener("click", () => {
+                if (!lgpdFlag.checked) {
+                  alert("Você precisa aceitar os termos de LGPD para continuar.");
+                  return false;
+                }else
+                window.location.href = "http://127.0.0.1:5501/html/mainpage.html"
+              });
+
 
         } else if (response == 404) {
 

@@ -303,6 +303,9 @@ input[type="text"] {
 }
 
 
+
+
+
 .barra1 {
     border-radius: 25px;
     background: rgba(29, 60, 109, 0.26);
@@ -310,11 +313,31 @@ input[type="text"] {
     height: 10vh;
     flex-shrink: 0;
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    
 }
+
+.barra1 p {
+    visibility: hidden;
+}
+
 
 .barra1:hover {
     transform: scale(1.10);
     background-color: #E32726;
+    
+}
+.barra1:hover p {
+    visibility: visible;
+    margin-left: 2.1vh;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 188px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .barra2 {
@@ -329,6 +352,23 @@ input[type="text"] {
 .barra2:hover {
     transform: scale(1.10);
     background-color: #E32726;
+    
+}
+.barra2 p {
+    visibility: hidden;
+}
+.barra2:hover p {
+    visibility: visible;
+    margin-left: 2.1vh;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 188px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 .barra3 {
     border-radius: 25px;
@@ -339,6 +379,22 @@ input[type="text"] {
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+.barra3 p {
+    visibility: hidden;
+}
+.barra3:hover p {
+    visibility: visible;
+    margin-left: 2.1vh;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 188px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
 .barra3:hover {
     transform: scale(1.10);
     background-color: #E32726;
@@ -353,6 +409,23 @@ input[type="text"] {
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+.barra4 p {
+    visibility: hidden;
+}
+
+.barra4:hover p {
+    visibility: visible;
+    margin-left: 2.1vh;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 188px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
 .barra4:hover {
     transform: scale(1.10);
     background-color: #E32726;
@@ -368,6 +441,23 @@ input[type="text"] {
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+.barra5 p {
+    visibility: hidden;
+}
+
+.barra5:hover p {
+    visibility: visible;
+    margin-left: 2.1vh;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 188px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
 .barra5:hover {
     transform: scale(1.10);
     background-color: #E32726;
@@ -380,6 +470,23 @@ input[type="text"] {
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+.barra6 p {
+    visibility: hidden;
+}
+
+.barra6:hover p {
+    visibility: visible;
+    margin-left: 2.1vh;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 188px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
 .barra6:hover {
     transform: scale(1.10);
     background-color: #E32726;
@@ -393,7 +500,9 @@ input[type="text"] {
 .mes1 {
     margin-left: 2.6vh;
 }
-
+.mes2 {
+    margin-left: 0.7vh;
+}
 .mes6 {
     margin-right: 2.6vh;
 }
