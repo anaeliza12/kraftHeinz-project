@@ -24,6 +24,30 @@ The application consists of collecting data from various media (currently used d
 ![5d2786fa-982c-4ca1-976e-913b59abbd08](https://github.com/anaeliza12/kraftHeinz-project/assets/108037430/9448f231-48fd-4293-900d-2d74f6b383e3)
 
 
+## Routes
+
+### Auth 
+Send a POST request to http://localhost:8080/login/auth to log in the site
+
+### Register
+Send a POST request to http://localhost:8080/login/register and Register object in the Request Body to register an user
+
+### Reset
+Send a PUT request to http://localhost:8080/login/reset-password and a password: String in the Request Body to reset the password
+
+
+# Testing with Postman  <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer">  
+
+```json
+{
+      "id": "1001",
+      "name": "Maria Brown",
+      "password": "123maria
+
+}
+
+```
+
 
 
 # Technologies used
