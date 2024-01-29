@@ -3,8 +3,6 @@
 
 # About the Project
 
-https://wmazoni-sds1.netlify.app
-
 The Kraft Heinz project was a system developed with the aim of generating insights for the company's analysts through consumer comments via social media.
 
 
